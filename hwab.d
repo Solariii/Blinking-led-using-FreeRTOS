@@ -1,0 +1,9 @@
+.\hwab.o: HwAb\HwAb.c
+.\hwab.o: HwAb\HwAb.h
+.\hwab.o: K:\keil\ARM\ARMCC\bin\..\include\stdint.h
+.\hwab.o: .\RTE\interfaces.h
+.\hwab.o: K:\keil\ARM\ARMCC\bin\..\include\stdbool.h
+.\hwab.o: .\Tivaware\inc/hw_memmap.h
+.\hwab.o: .\Tivaware\driverlib/sysctl.h
+.\hwab.o: .\Tivaware\driverlib/gpio.h
+.\hwab.o: .\Tivaware\driverlib/pin_map.h

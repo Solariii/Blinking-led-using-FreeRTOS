@@ -1,0 +1,130 @@
+Dependencies for Project 'prj10', Target 'prj10': (DO NOT MODIFY !)
+F (.\startup_TM4C123.s)(0x5CC194BE)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I K:\keil\ARM\RV31\INC-I K:\keil\ARM\CMSIS\Include-I K:\keil\ARM\Inc\TI\TM4C123--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (.\main.c)(0x5D334B78)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I. -I.\Tivaware -I.\RTE -I.\HwAb -I.\Application -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM4F-I K:\keil\ARM\RV31\INC-I K:\keil\ARM\CMSIS\Include-I K:\keil\ARM\Inc\TI\TM4C123-DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (K:\keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (.\FreeRTOS\Source\include\FreeRTOS.h)(0x5CC198A4)
+I (K:\keil\ARM\ARMCC\include\stddef.h)(0x51C819B4)
+I (.\FreeRTOSConfig.h)(0x5CC194BE)
+I (.\FreeRTOS\Source\include\projdefs.h)(0x5CC198A2)
+I (.\FreeRTOS\Source\include\portable.h)(0x5CC198A2)
+I (.\FreeRTOS\Source\include\deprecated_definitions.h)(0x5CC198A0)
+I (.\FreeRTOS\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CC198B2)
+I (.\FreeRTOS\Source\include\mpu_wrappers.h)(0x5CC198A2)
+I (.\FreeRTOS\Source\include\task.h)(0x5CC198A6)
+I (.\FreeRTOS\Source\include\list.h)(0x5CC198A4)
+I (.\HwAb\HwAb.h)(0x5CC194C4)
+I (.\RTE\interfaces.h)(0x5CC194C6)
+I (.\Application\BlinkingLED_SWC.h)(0x5CC194C0)
+I (.\Application\PushButton_SWC.h)(0x5CC194C2)
+F (.\Tivaware\driverlib\gpio.c)(0x5CC194FE)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I. -I.\Tivaware -I.\RTE -I.\HwAb -I.\Application -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM4F-I K:\keil\ARM\RV31\INC-I K:\keil\ARM\CMSIS\Include-I K:\keil\ARM\Inc\TI\TM4C123-DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DTM4C123GH6PM-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (K:\keil\ARM\ARMCC\include\stdbool.h)(0x51C819B4)
+I (K:\keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (.\Tivaware\inc/hw_gpio.h)(0x5CC19540)
+I (.\Tivaware\inc/hw_ints.h)(0x5CC1954A)
+I (.\Tivaware\inc/hw_memmap.h)(0x5CC19546)
+I (.\Tivaware\inc/hw_sysctl.h)(0x5CC19552)
+I (.\Tivaware\inc/hw_types.h)(0x5CC19550)
+I (.\Tivaware\driverlib/debug.h)(0x5CC194D8)
+I (.\Tivaware\driverlib/gpio.h)(0x5CC194F4)
+I (.\Tivaware\driverlib/interrupt.h)(0x5CC19500)
+F (.\Tivaware\driverlib\sysctl.c)(0x5CC19528)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I. -I.\Tivaware -I.\RTE -I.\HwAb -I.\Application -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM4F-I K:\keil\ARM\RV31\INC-I K:\keil\ARM\CMSIS\Include-I K:\keil\ARM\Inc\TI\TM4C123-DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DTM4C123GH6PM-o .\sysctl.o --omf_browse .\sysctl.crf --depend .\sysctl.d)
+I (K:\keil\ARM\ARMCC\include\stdbool.h)(0x51C819B4)
+I (K:\keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (.\Tivaware\inc/hw_ints.h)(0x5CC1954A)
+I (.\Tivaware\inc/hw_nvic.h)(0x5CC1954C)
+I (.\Tivaware\inc/hw_sysctl.h)(0x5CC19552)
+I (.\Tivaware\inc/hw_types.h)(0x5CC19550)
+I (.\Tivaware\inc/hw_flash.h)(0x5CC1953E)
+I (.\Tivaware\driverlib/cpu.h)(0x5CC194D8)
+I (.\Tivaware\driverlib/debug.h)(0x5CC194D8)
+I (.\Tivaware\driverlib/interrupt.h)(0x5CC19500)
+I (.\Tivaware\driverlib/sysctl.h)(0x5CC1952A)
+F (.\Tivaware\driverlib\interrupt.c)(0x5CC194FE)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I. -I.\Tivaware -I.\RTE -I.\HwAb -I.\Application -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM4F-I K:\keil\ARM\RV31\INC-I K:\keil\ARM\CMSIS\Include-I K:\keil\ARM\Inc\TI\TM4C123-DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DTM4C123GH6PM-o .\interrupt.o --omf_browse .\interrupt.crf --depend .\interrupt.d)
+I (K:\keil\ARM\ARMCC\include\stdbool.h)(0x51C819B4)
+I (K:\keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (.\Tivaware\inc/hw_ints.h)(0x5CC1954A)
+I (.\Tivaware\inc/hw_nvic.h)(0x5CC1954C)
+I (.\Tivaware\inc/hw_types.h)(0x5CC19550)
+I (.\Tivaware\driverlib/cpu.h)(0x5CC194D8)
+I (.\Tivaware\driverlib/debug.h)(0x5CC194D8)
+I (.\Tivaware\driverlib/interrupt.h)(0x5CC19500)
+F (.\Tivaware\driverlib\cpu.c)(0x5CC194D6)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I. -I.\Tivaware -I.\RTE -I.\HwAb -I.\Application -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM4F-I K:\keil\ARM\RV31\INC-I K:\keil\ARM\CMSIS\Include-I K:\keil\ARM\Inc\TI\TM4C123-DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DTM4C123GH6PM-o .\cpu.o --omf_browse .\cpu.crf --depend .\cpu.d)
+I (K:\keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (.\Tivaware\driverlib/cpu.h)(0x5CC194D8)
+F (.\FreeRTOS\Source\portable\RVDS\ARM_CM4F\port.c)(0x5CC198B4)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I. -I.\Tivaware -I.\RTE -I.\HwAb -I.\Application -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM4F-I K:\keil\ARM\RV31\INC-I K:\keil\ARM\CMSIS\Include-I K:\keil\ARM\Inc\TI\TM4C123-DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DTM4C123GH6PM-o .\port.o --omf_browse .\port.crf --depend .\port.d)
+I (.\FreeRTOS\Source\include\FreeRTOS.h)(0x5CC198A4)
+I (K:\keil\ARM\ARMCC\include\stddef.h)(0x51C819B4)
+I (K:\keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (.\FreeRTOSConfig.h)(0x5CC194BE)
+I (.\FreeRTOS\Source\include\projdefs.h)(0x5CC198A2)
+I (.\FreeRTOS\Source\include\portable.h)(0x5CC198A2)
+I (.\FreeRTOS\Source\include\deprecated_definitions.h)(0x5CC198A0)
+I (.\FreeRTOS\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CC198B2)
+I (.\FreeRTOS\Source\include\mpu_wrappers.h)(0x5CC198A2)
+I (.\FreeRTOS\Source\include\task.h)(0x5CC198A6)
+I (.\FreeRTOS\Source\include\list.h)(0x5CC198A4)
+F (.\FreeRTOS\Source\tasks.c)(0x5CC194D4)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I. -I.\Tivaware -I.\RTE -I.\HwAb -I.\Application -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM4F-I K:\keil\ARM\RV31\INC-I K:\keil\ARM\CMSIS\Include-I K:\keil\ARM\Inc\TI\TM4C123-DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DTM4C123GH6PM-o .\tasks.o --omf_browse .\tasks.crf --depend .\tasks.d)
+I (K:\keil\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (K:\keil\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (.\FreeRTOS\Source\include\FreeRTOS.h)(0x5CC198A4)
+I (K:\keil\ARM\ARMCC\include\stddef.h)(0x51C819B4)
+I (K:\keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (.\FreeRTOSConfig.h)(0x5CC194BE)
+I (.\FreeRTOS\Source\include\projdefs.h)(0x5CC198A2)
+I (.\FreeRTOS\Source\include\portable.h)(0x5CC198A2)
+I (.\FreeRTOS\Source\include\deprecated_definitions.h)(0x5CC198A0)
+I (.\FreeRTOS\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CC198B2)
+I (.\FreeRTOS\Source\include\mpu_wrappers.h)(0x5CC198A2)
+I (.\FreeRTOS\Source\include\task.h)(0x5CC198A6)
+I (.\FreeRTOS\Source\include\list.h)(0x5CC198A4)
+I (.\FreeRTOS\Source\include\timers.h)(0x5CC198A8)
+I (.\FreeRTOS\Source\include\StackMacros.h)(0x5CC198A6)
+F (.\FreeRTOS\Source\list.c)(0x5CC194CE)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I. -I.\Tivaware -I.\RTE -I.\HwAb -I.\Application -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM4F-I K:\keil\ARM\RV31\INC-I K:\keil\ARM\CMSIS\Include-I K:\keil\ARM\Inc\TI\TM4C123-DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DTM4C123GH6PM-o .\list.o --omf_browse .\list.crf --depend .\list.d)
+I (K:\keil\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (.\FreeRTOS\Source\include\FreeRTOS.h)(0x5CC198A4)
+I (K:\keil\ARM\ARMCC\include\stddef.h)(0x51C819B4)
+I (K:\keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (.\FreeRTOSConfig.h)(0x5CC194BE)
+I (.\FreeRTOS\Source\include\projdefs.h)(0x5CC198A2)
+I (.\FreeRTOS\Source\include\portable.h)(0x5CC198A2)
+I (.\FreeRTOS\Source\include\deprecated_definitions.h)(0x5CC198A0)
+I (.\FreeRTOS\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CC198B2)
+I (.\FreeRTOS\Source\include\mpu_wrappers.h)(0x5CC198A2)
+I (.\FreeRTOS\Source\include\list.h)(0x5CC198A4)
+F (.\FreeRTOS\Source\portable\MemMang\heap_2.c)(0x5CC198AC)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I. -I.\Tivaware -I.\RTE -I.\HwAb -I.\Application -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM4F-I K:\keil\ARM\RV31\INC-I K:\keil\ARM\CMSIS\Include-I K:\keil\ARM\Inc\TI\TM4C123-DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DTM4C123GH6PM-o .\heap_2.o --omf_browse .\heap_2.crf --depend .\heap_2.d)
+I (K:\keil\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (.\FreeRTOS\Source\include\FreeRTOS.h)(0x5CC198A4)
+I (K:\keil\ARM\ARMCC\include\stddef.h)(0x51C819B4)
+I (K:\keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (.\FreeRTOSConfig.h)(0x5CC194BE)
+I (.\FreeRTOS\Source\include\projdefs.h)(0x5CC198A2)
+I (.\FreeRTOS\Source\include\portable.h)(0x5CC198A2)
+I (.\FreeRTOS\Source\include\deprecated_definitions.h)(0x5CC198A0)
+I (.\FreeRTOS\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CC198B2)
+I (.\FreeRTOS\Source\include\mpu_wrappers.h)(0x5CC198A2)
+I (.\FreeRTOS\Source\include\task.h)(0x5CC198A6)
+I (.\FreeRTOS\Source\include\list.h)(0x5CC198A4)
+F (.\Application\BlinkingLED_SWC.c)(0x5CC194BE)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I. -I.\Tivaware -I.\RTE -I.\HwAb -I.\Application -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM4F-I K:\keil\ARM\RV31\INC-I K:\keil\ARM\CMSIS\Include-I K:\keil\ARM\Inc\TI\TM4C123-DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DTM4C123GH6PM-o .\blinkingled_swc.o --omf_browse .\blinkingled_swc.crf --depend .\blinkingled_swc.d)
+I (Application\BlinkingLED_SWC.h)(0x5CC194C0)
+I (K:\keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (.\RTE\interfaces.h)(0x5CC194C6)
+I (.\RTE\RTE.h)(0x5CC194C6)
+F (.\Application\PushButton_SWC.c)(0x5CC194C0)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I. -I.\Tivaware -I.\RTE -I.\HwAb -I.\Application -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM4F-I K:\keil\ARM\RV31\INC-I K:\keil\ARM\CMSIS\Include-I K:\keil\ARM\Inc\TI\TM4C123-DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DTM4C123GH6PM-o .\pushbutton_swc.o --omf_browse .\pushbutton_swc.crf --depend .\pushbutton_swc.d)
+I (Application\PushButton_SWC.h)(0x5CC194C2)
+I (K:\keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (.\RTE\interfaces.h)(0x5CC194C6)
+I (.\RTE\RTE.h)(0x5CC194C6)
+F (.\HwAb\HwAb.c)(0x5CC194C2)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I. -I.\Tivaware -I.\RTE -I.\HwAb -I.\Application -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM4F-I K:\keil\ARM\RV31\INC-I K:\keil\ARM\CMSIS\Include-I K:\keil\ARM\Inc\TI\TM4C123-DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DTM4C123GH6PM-o .\hwab.o --omf_browse .\hwab.crf --depend .\hwab.d)
+I (HwAb\HwAb.h)(0x5CC194C4)
+I (K:\keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (.\RTE\interfaces.h)(0x5CC194C6)
+I (K:\keil\ARM\ARMCC\include\stdbool.h)(0x51C819B4)
+I (.\Tivaware\inc/hw_memmap.h)(0x5CC19546)
+I (.\Tivaware\driverlib/sysctl.h)(0x5CC1952A)
+I (.\Tivaware\driverlib/gpio.h)(0x5CC194F4)
+I (.\Tivaware\driverlib/pin_map.h)(0x5CC19528)
+F (.\RTE\RTE.c)(0x5CC194C6)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I. -I.\Tivaware -I.\RTE -I.\HwAb -I.\Application -I.\FreeRTOS\Source\include -I.\FreeRTOS\Source\portable\RVDS\ARM_CM4F-I K:\keil\ARM\RV31\INC-I K:\keil\ARM\CMSIS\Include-I K:\keil\ARM\Inc\TI\TM4C123-DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DTM4C123GH6PM-o .\rte.o --omf_browse .\rte.crf --depend .\rte.d)
+I (RTE\RTE.h)(0x5CC194C6)
+I (K:\keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (RTE\interfaces.h)(0x5CC194C6)
+I (.\HwAb\HwAb.h)(0x5CC194C4)

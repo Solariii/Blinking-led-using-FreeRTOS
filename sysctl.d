@@ -1,0 +1,12 @@
+.\sysctl.o: Tivaware\driverlib\sysctl.c
+.\sysctl.o: K:\keil\ARM\ARMCC\bin\..\include\stdbool.h
+.\sysctl.o: K:\keil\ARM\ARMCC\bin\..\include\stdint.h
+.\sysctl.o: .\Tivaware\inc/hw_ints.h
+.\sysctl.o: .\Tivaware\inc/hw_nvic.h
+.\sysctl.o: .\Tivaware\inc/hw_sysctl.h
+.\sysctl.o: .\Tivaware\inc/hw_types.h
+.\sysctl.o: .\Tivaware\inc/hw_flash.h
+.\sysctl.o: .\Tivaware\driverlib/cpu.h
+.\sysctl.o: .\Tivaware\driverlib/debug.h
+.\sysctl.o: .\Tivaware\driverlib/interrupt.h
+.\sysctl.o: .\Tivaware\driverlib/sysctl.h

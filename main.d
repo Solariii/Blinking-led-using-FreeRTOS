@@ -1,0 +1,16 @@
+.\main.o: main.c
+.\main.o: K:\keil\ARM\ARMCC\bin\..\include\stdint.h
+.\main.o: .\FreeRTOS\Source\include\FreeRTOS.h
+.\main.o: K:\keil\ARM\ARMCC\bin\..\include\stddef.h
+.\main.o: .\FreeRTOSConfig.h
+.\main.o: .\FreeRTOS\Source\include\projdefs.h
+.\main.o: .\FreeRTOS\Source\include\portable.h
+.\main.o: .\FreeRTOS\Source\include\deprecated_definitions.h
+.\main.o: .\FreeRTOS\Source\portable\RVDS\ARM_CM4F\portmacro.h
+.\main.o: .\FreeRTOS\Source\include\mpu_wrappers.h
+.\main.o: .\FreeRTOS\Source\include\task.h
+.\main.o: .\FreeRTOS\Source\include\list.h
+.\main.o: .\HwAb\HwAb.h
+.\main.o: .\RTE\interfaces.h
+.\main.o: .\Application\BlinkingLED_SWC.h
+.\main.o: .\Application\PushButton_SWC.h
